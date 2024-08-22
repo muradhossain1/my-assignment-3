@@ -19,9 +19,62 @@
             font-family: "Manrope", sans-serif;
         }
     </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
 </head>
-<body>
-    <header></header>
+<body class="font-manrope">
+    <header class="bg-gradient-to-t from-white to-gray-100 p-4 lg:px-24 ">
+        <nav>
+          <div >
+            <div class="navbar container mx-auto border">
+                <div class="navbar-start gap-2 border min-w-max ">
+                  <i class="fa-solid bg-[#ABEF5F] rounded-full -rotate-45 p-2 fa-arrow-right"></i>
+                  <a class="text-4xl font-bold">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-base font-[500] ">
+                    <li class="font-bold" ><a>Home</a></li>
+                    <li class=" duration-300 opacity-80 ease-in-out"><a>Services</a></li>
+                    <li class="opacity-80  duration-300 ease-in-out"><a>Portfolio</a></li>
+                    <li class="opacity-80  duration-300 ease-in-out"><a>Blogs</a></li>
+                    <li class="opacity-80  duration-300 ease-in-out"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+
+                <div class="navbar-end flex space-x-5 border">
+
+                  <i class="fa-solid rounded-full bg-white text-black p-2  fa-magnifying-glass hidden lg:block"></i>
+                  <i class="fa-solid rounded-full bg-white text-black p-2 fa-cart-shopping hidden lg:block   "></i>
+                  <a class="btn btn-error text-lg bg-[#ABEF5F] border-none rounded-full font-bold ">Book Consult <i class="fa-solid bg-black text-white rounded-full p-2 -rotate-45 fa-arrow-right"></i></a>
+                </div>
+              </div>
+        </div>
+        </nav>
+        <!-- banner-section  -->
+        <div class="container mx-auto">
+          <div class="hero-content text-center flex flex-col">
+              <div><img src="./assets/banner.png" alt=""></div>
+              <div class=" lg:w-2/3 space-y-5">
+                <h1 class="text-3xl lg:text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                <p class="">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <button>
+                  <a class="btn btn-error text-lg bg-[#ABEF5F80] border-none rounded-full font-bold ">View Details<i class="fa-solid bg-[#ABEF5F] text-black rounded-full p-2 w-9 -rotate-45 fa-arrow-right"></i></a>
+                </button>
+              </div>
+            </div>
+          
+
+        </div>
+    </header>
     <main></main>
     <footer></footer>
 </body>
