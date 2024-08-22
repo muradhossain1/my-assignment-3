@@ -35,8 +35,8 @@
     <header class="bg-gradient-to-t from-white to-gray-100 p-4 lg:px-24 ">
         <nav>
           <div >
-            <div class="navbar container mx-auto border">
-                <div class="navbar-start gap-2 border ">
+            <div class="navbar container mx-auto">
+                <div class="navbar-start gap-2 ">
                   <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full -rotate-45 p-2"></i>
                   <h1 class="text-2xl lg:text-4xl font-bold">Rinterio</h1>
 
@@ -51,15 +51,15 @@
                   </ul>
                 </div>
 
-                <div class="navbar-end flex space-x-5 border">
+                <div class="navbar-end flex space-x-5 ">
 
-                  <i class="fa-solid rounded-full bg-white text-black p-2  fa-magnifying-glass hidden lg:block"></i>
-                  <i class="fa-solid rounded-full bg-white text-black p-2 fa-cart-shopping hidden lg:block   "></i>
-                  <div class="bg-[#ABEF5F]   rounded-full py-1 px-4 space-x-2">
+                  <i class="fa-solid rounded-full bg-white text-black p-2  fa-magnifying-glass hidden md:block lg:block"></i>
+                  <i class="fa-solid rounded-full bg-white text-black p-2 fa-cart-shopping hidden lg:block md:block   "></i>
+                 <div class="bg-[#ABEF5F] hidden lg:block md:block  rounded-full py-1 px-4 space-x-2">
                     <button class="font-bold"> Book Consult</button>
                     <i class="fa-solid fa-arrow-right bg-black text-white rounded-full p-2 -rotate-45"></i>
                   </div>
-                  <!-- <a class="btn btn- px-4 text-lg  border-none rounded-full font-bold ">Book Consult <i class="fa-solid bg-black text-white rounded-full p-2 -rotate-45 fa-arrow-right"></i></a> -->
+                  <i class="fa-solid fa-bars rounded-full lg:hidden bg-white text-black p-2 "></i>
                 </div>
               </div>
         </div>
@@ -73,9 +73,10 @@
               <div class=" lg:w-2/3 space-y-5">
                 <h1 class="text-3xl lg:text-5xl font-bold">A barn house of this design has a striking appearance</h1>
                 <p class="text-sm">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-                <button>
-                  <a class="btn text-lg bg-[#ABEF5F80] border-none rounded-full font-bold ">View Details<i class="fa-solid bg-[#ABEF5F] text-black rounded-full p-2 w-9 -rotate-45 fa-arrow-right"></i></a>
-                </button>
+                <div class="bg-[#ABEF5F80] lg:w-48 md:w-48 mx-auto rounded-full py-1 px-4 space-x-2">
+                  <button class="font-bold"> View Details</button>
+                  <i class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black rounded-full p-2 -rotate-45"></i>
+                </div>
               </div>
             </div>
           
@@ -94,7 +95,7 @@
           <div class="hero-content flex-col-reverse lg:flex-row-reverse mt-16 ">
             <img
               src="./assets/Rectangle.png"
-              class="  lg:w-2/5 rounded-lg " />
+              class=" md:w-full lg:w-2/5  " />
           <!-- contant  -->
           <div class="space-y-4 text-center lg:text-start lg:w-1/2">
             
@@ -137,7 +138,7 @@
             <p class="text-sm">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
           </div>
           <!-- card section  -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  lg:gap-6 md:gap-6">
             <div class=" bg-[#E7C1D3] p-6 rounded-lg mt-12 space-y-3 ">
               <img src="./assets/concept.png" alt="">
               <div class=" space-y-3">
@@ -169,6 +170,44 @@
                  <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
               </div>
              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Let’s Discuss Next Project section  -->
+      <section class="p-4 lg:px-24 bg-gray-100 " >
+        <div class="container mx-auto border  ">
+          <div class="space-y-4 text-center mt-12 ">
+            <div class=" bg-[#ABEF5F33] flex rounded-full py-2 px-4 w-40 gap-2 text-sm items-center mx-auto ">
+              <i class="fa-solid fa-arrow-right"></i>
+              <h5 class="font-bold" >Let’s Connect</h5>
+              </div>
+            <h1 class="text-3xl lg:text-4xl font-bold">Let’s Discuss Next Project</h1>
+            <p class="text-sm">The barn house captivates with its blend of rustic charm and modern sophistication, <br class="hidden lg:block"> featuring weathered wood, sleek metal accents.</p>
+          </div>
+          <!-- form-section  -->
+          <div>
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+                <div>
+                  <input class="p-4 mt-3 border-none outline-none bg-white rounded-full w-full" type="text" placeholder="First Name*">
+                </div>
+                <div>
+                  <input class="p-4 mt-3 border-none outline-none bg-white rounded-full w-full" type="text" placeholder="Last Name*">
+                </div>
+                <div>
+                  <input class="p-4 mt-3 border-none outline-none bg-white rounded-full w-full" type="text" placeholder="Phone Number*">
+                </div>
+                <div>
+                  <input class="p-4 mt-3 border-none outline-none bg-white rounded-full w-full" type="text" placeholder="Email Number*">
+                </div>
+                <div class="lg:col-span-2">
+                  <textarea class="p-4 mt-3 border-none outline-none bg-white rounded-3xl w-full" placeholder="Write your message here" name="" id=""  rows="5"></textarea>
+                </div>
+                <div class="bg-[#ABEF5F] lg:col-span-2 text-center rounded-full py-1 px-4 space-x-2">
+                  <button class="font-bold"> Book Consult</button>
+                  <i class="fa-solid fa-arrow-right bg-black text-white rounded-full p-2 -rotate-45"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
