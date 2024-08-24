@@ -43,11 +43,11 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-base font-[500] ">
-                    <li class="font-bold" ><a>Home</a></li>
-                    <li class=" duration-300 opacity-80 ease-in-out"><a>Services</a></li>
-                    <li class="opacity-80  duration-300 ease-in-out"><a>Portfolio</a></li>
-                    <li class="opacity-80  duration-300 ease-in-out"><a>Blogs</a></li>
-                    <li class="opacity-80  duration-300 ease-in-out"><a>Contact Us</a></li>
+                    <li class="font-bold hover:text-red-500" ><a>Home</a></li>
+                    <li class=" duration-300 hover:text-red-500 opacity-80 ease-in-out"><a>Services</a></li>
+                    <li class="opacity-80 hover:text-red-500  duration-300 ease-in-out"><a>Portfolio</a></li>
+                    <li class="opacity-80 hover:text-red-500  duration-300 ease-in-out"><a>Blogs</a></li>
+                    <li class="opacity-80 hover:text-red-500  duration-300 ease-in-out"><a>Contact Us</a></li>
                   </ul>
                 </div>
 
@@ -95,7 +95,7 @@
           <div class="hero-content flex-col-reverse lg:flex-row-reverse mt-16 ">
             <img
               src="./assets/Rectangle.png"
-              class=" md:w-full lg:w-2/5  " />
+              class="aspect-video object-cover lg:object-none lg:aspect-auto rounded-xl md:w-full lg:w-2/5  " />
           <!-- contant  -->
           <div class="space-y-4 text-center lg:text-start lg:w-1/2">
             
@@ -105,7 +105,7 @@
                 </div>
               <h1 class="text-2xl lg:text-4xl font-bold">We design thoughtful, <br> liveable spaces</h1>
               <p class="text-sm">Experience the charm of interior design like never before! Unveil <br class="hidden lg:block"> the secrets behind stunning decor styles as you join us for a journey.</p>
-              <div class="flex gap-4 bg-white p-4 rounded-lg">
+              <div class="flex gap-4 bg-white p-4 rounded-xl">
                 <img src="./assets/commercial.png" alt="">
                 <div class="w-2/3">
                    <h1 class="text-xl font-bold">Commercial</h1>
@@ -113,7 +113,7 @@
                 </div>
                
               </div>
-              <div class="flex gap-4 bg-white p-4 rounded-lg">
+              <div class="flex gap-4 bg-white p-4 rounded-xl">
                 <img src="./assets/residential.png" alt="">
                 <div class="w-2/3">
                    <h1 class="text-xl font-bold">Residential</h1>
@@ -188,7 +188,7 @@
         </div>
         <!--grid card  -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 mt-12">
-          <div class="flex flex-col md:flex-row lg:flex-row bg-white lg:border rounded-lg p-4 md:col-span-2 lg:col-span-8 gap-6">
+          <div class="flex flex-col md:flex-row lg:flex-row bg-white rounded-2xl lg:border  p-4 md:col-span-2 lg:col-span-8 gap-6">
             <img class="" src="./assets/img1.png" alt="">
             <div class=" flex flex-col  justify-around space-y-4">
               <h1 class="text-2xl font-bold">Commercial</h1>
@@ -199,13 +199,13 @@
               </div>
             </div>
           </div>
-          <div class="lg:col-span-4 bg-white">
+          <div class="lg:col-span-4 rounded-2xl bg-white">
             <img class="p-4 w-full h-full lg:border rounded-xl" src="./assets/img2.png" alt="">
           </div>
-          <div class="lg:col-span-3 bg-white ">
+          <div class="lg:col-span-3 rounded-2xl bg-white ">
             <img class="w-full p-4 lg:border rounded-xl" src="./assets/img3.png" alt="">
           </div>
-          <div class="flex flex-col md:flex-row lg:flex-row bg-white md:col-span-2 lg:col-span-6 lg:border p-4 gap-6 rounded-lg">
+          <div class="flex flex-col md:flex-row lg:flex-row bg-white rounded-2xl md:col-span-2 lg:col-span-6 lg:border p-4 gap-6 ">
             <img class="" src="./assets/img4.png" alt="">
             <div class="flex flex-col justify-around space-y-4">
               <h1 class="text-2xl font-bold">Commercial</h1>
@@ -216,15 +216,93 @@
               </div>
           </div>
           </div>
-          <div class="lg:col-span-3  lg:order-none bg-white">
+          <div class="lg:col-span-3 rounded-2xl  bg-white">
             <img class="w-full p-4 lg:border rounded-xl" src="./assets/img5.png" alt="">
           </div>
         </div>
       </section>
+      <!-- Designing Your Dream  -->
+      <section class="p-6 lg:px-24 py-12 bg-gray-100">
+        <div>
+          <div class="space-y-4 text-center ">
+            <div class=" bg-[#ABEF5F33] flex rounded-full py-2 px-4 w-56 gap-2 text-sm items-center mx-auto ">
+              <i class="fa-solid fa-arrow-right-long"></i>
+              <h5 class="font-bold" >Design your dream</h5>
+              </div>
+            <h1 class="text-3xl lg:text-4xl font-bold">Designing Your Dream <br> With Brilliance</h1>
+            <p class="text-sm">“Design your dreams” will help you craft for your life, create actionable plans that dream into a reality. It's time to <br class="hidden lg:block"> decide on what you want and start making it happen.</p>
+           
+           </div>
+        </div>
+        <div class="flex flex-col  lg:flex-row flex-col-reverse mt-12 gap-6">
+          
+          <div class="carousel lg:w-5/12 h-72 lg:h-96 rounded-xl bg-white lg:m-5 ">
+            <div id="slide1" class="carousel-item relative w-11/12 p-4 lg:p-5 rounded-xl  ">
+              <img
+                src="./assets/home.4.png"
+                class="w-full rounded-xl  " />
+              <div class="absolute right-8 left-10 lg:left-80 b lg:right-10 bottom-2 flex -translate-y-1/2 transform  justify-between">
+                <a href="#slide3" class="btn bg-red-50 btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle bg-red-50">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-11/12 p-4 lg:p-5 rounded-xl ">
+              <img
+                src="./assets/home.5.png"
+                class="w-full rounded-lg" />
+              <div class="absolute  flex right-8 left-10 lg:left-80 b lg:right-10  bottom-2 -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle bg-red-50">❮</a>
+                <a href="#slide3" class="btn btn-circle bg-red-50">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-11/12 p-4 lg:p-5   ">
+              <img
+                src="./assets/home.6.png"
+                class="w-full rounded-xl " />
+              <div class="absolute right-8 left-10 lg:left-80 b lg:right-10 bottom-2 flex -translate-y-1/2 transform justify-between ">
+                <a href="#slide2" class="btn btn-circle bg-red-50">❮</a>
+                <a href="#slide1" class="btn btn-circle bg-red-50 ">❯</a>
+              </div>
+            </div>
+          </div>
+          <div class=" lg:w-1/2  ">
+            <div>
+              <h1 class="text-3xl font-bold my-4">Frequently Asked Questions</h1>
+            </div>
+            <div class="collapse collapse-arrow bg-white mb-4">
+              <input type="radio" name="my-accordion-2" checked="checked" />
+              <div class="collapse-title text-base font-medium">Which skills do rinterior designers need to be successful? </div>
+              <div class="collapse-content">
+                <p class="text-xs">Some of the most commonly used interior design software programs include AutoCAD, Autodesk Revit, Sweet Home 3D, TurboCAD, etc.Client Communication and Interpersonal Skills.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow bg-white mb-4">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-base font-medium">How critical are communication skills for rinterior designers?</div>
+              <div class="collapse-content">
+                <p class="text-xs">Strong communication skills are essential for Interior Designers, as they must be able to articulate their ideas clearly and work closely with clients, contractors, and suppliers.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow bg-white">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-base font-medium">How vital are project management skills for rinterior designers?</div>
+              <div class="collapse-content">
+                <p class="text-xs">It's more than just a set of skills; it's a critical framework that supports creativity and ensures that your grandest visions come to life, on time, and within budget.</p>
+              </div>
+            </div>
+            <div>
+              <div class="bg-[#ABEF5F80] lg:w-48 md:w-48 text-center my-4 rounded-full py-1 px-4 space-x-2">
+                <button class="font-bold"> View Details</button>
+                <i class="fa-solid fa-arrow-right-long bg-[#ABEF5F] text-black rounded-full p-2 -rotate-45"></i>
+            </div>
+          </div>
+        </div>
+
+      </section>
       <!-- Let’s Discuss Next Project section  -->
-      <section class="p-6 lg:px-24 py-12 bg-gray-100 " >
-        <div class="container mx-auto ">
-          <div class="space-y-4 text-center mt-12 ">
+      <section class="p-6 lg:px-24  bg-[url('assets/bg.jpg')] bg-cover bg-no-repeat " >
+        <div class="container mx-auto lg:px-24 py-6 lg:py-12 ">
+          <div class="space-y-4 text-center  ">
             <div class=" bg-[#ABEF5F33] flex rounded-full py-2 px-4 w-40 gap-2 text-sm items-center mx-auto ">
               <i class="fa-solid fa-arrow-right-long"></i>
               <h5 class="font-bold" >Let’s Connect</h5>
